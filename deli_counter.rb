@@ -14,13 +14,12 @@ def line(katz_deli)
 end
 end
 
-def take_a_number (katz_deli, name = "no")
-  if name != "no"
-  counter =1
-  katz_deli.push(name)
+def take_a_number (katz_deli)
+  counter = 1
   ln = katz_deli.count
+  counter += 1
     end
-  puts "Welcome, #{name}. You are number #{ln} in line."
+  puts "Welcome. Your ticket numbe is #{count}, and you are number #{ln} in line."
 end
 
 def now_serving (katz_deli)
@@ -35,9 +34,6 @@ def now_serving (katz_deli)
 end
 
 line = []
-now_serving(line)
-take_a_number(line, "Cernan")
-take_a_number(line, "Kevin")
-now_serving(line)
+take_a_number(line) # Welcome you are ticket number 1, and you are 1 in line.
 
-puts "Line is #{line}"
+puts "Line is #{line}" # Line is [1]
