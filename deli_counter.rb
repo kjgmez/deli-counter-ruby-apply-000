@@ -19,7 +19,7 @@ def take_a_number (katz_deli)
   ln = katz_deli.count
   counter += 1
     end
-  puts "Welcome. Your ticket numbe is #{count}, and you are number #{ln} in line."
+  puts "Welcome. Your ticket numbe is #{counter}, and you are number #{ln} in line."
 end
 
 def now_serving (katz_deli)
