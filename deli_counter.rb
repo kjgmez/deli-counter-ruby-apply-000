@@ -37,6 +37,7 @@ end
 line = []
 now_serving(line)
 take_a_number(line, "Cernan")
+take_a_number(line, "Kevin")
 now_serving(line)
 
 puts "Line is #{line}"
