@@ -38,4 +38,4 @@ line = []
 
 take_a_number(line, "Cernan")
 
-puts line
+puts "Line is #{line}"
