@@ -20,7 +20,7 @@ def take_a_number (katz_deli)
   katz_deli.push(counter)
   ln = katz_deli.count
   puts "Welcome. Your ticket number is #{counter}, and you are number #{ln} in line."
-  counter += 1
+  $counter += 1
   end
 
 def now_serving (katz_deli)
