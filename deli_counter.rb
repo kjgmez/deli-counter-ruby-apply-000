@@ -14,7 +14,7 @@ def line(katz_deli)
 end
 end
 
-counter = 1
+$counter = 1
 
 def take_a_number (katz_deli)
   katz_deli.push(counter)
