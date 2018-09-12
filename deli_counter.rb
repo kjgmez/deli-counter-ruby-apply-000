@@ -17,9 +17,9 @@ end
 $counter = 1
 
 def take_a_number (katz_deli)
-  katz_deli.push(counter)
+  katz_deli.push($counter)
   ln = katz_deli.count
-  puts "Welcome. Your ticket number is #{counter}, and you are number #{ln} in line."
+  puts "Welcome. Your ticket number is #{$counter}, and you are number #{ln} in line."
   $counter += 1
   end
 
