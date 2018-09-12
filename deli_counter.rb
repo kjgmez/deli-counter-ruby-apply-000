@@ -35,5 +35,6 @@ end
 
 line = []
 take_a_number(line) # Welcome you are ticket number 1, and you are 1 in line.
+take_a_number(line)
 
-puts "Line is #{line}" # Line is [1]
+puts "Line is #{line}" # Line is [1, 2]
