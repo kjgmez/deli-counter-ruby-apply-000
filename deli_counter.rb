@@ -18,7 +18,6 @@ def take_a_number (katz_deli)
   counter = 1
   ln = katz_deli.count
   counter += 1
-    end
   puts "Welcome. Your ticket numbe is #{counter}, and you are number #{ln} in line."
 end
 
